@@ -1,6 +1,7 @@
 from app import add
 import unittest
 
+
 class add_test(unittest.TestCase):
     def test_add1(self):
         self.assertEqual(add(1, 2), 3)
