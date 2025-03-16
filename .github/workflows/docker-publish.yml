@@ -24,7 +24,7 @@ jobs:
         uses: docker/metadata-action@v4
         id: meta
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/homework_github_actions_part2:work_test
+          images: ${{ secrets.DOCKER_USERNAME }}/homework_github_actions_part2
           tags: |
             type=ref,event=tag
             type=semver,pattern={{version}}
