@@ -23,7 +23,7 @@ jobs:
       - name: Generate Image Metadata
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/homework_github_actions_part2
+          images: ${{ secrets.DOCKER_USERNAME }}/homework_github_actions_part2:work_test
 
       # 步骤4：构建并推送镜像
       - name: Build and Push
